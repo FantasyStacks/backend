@@ -1,13 +1,8 @@
 //import log from 'ololog'
-import db from '../models'
-
-afterAll(async () => {
-  await db.sequelize.close();
-});
 
 describe('Test createUser', () => {
   test('Should create a new item in the database with valid input', async () => {
-    
+    expect(true).toBeTruthy() 
   })
 
   test('Should not create a user if email is not valid', async () => {
